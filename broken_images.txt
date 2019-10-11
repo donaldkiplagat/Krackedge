@@ -1,0 +1,1 @@
+a:1:{s:36:"blog-single.html";a:1:{i:0;s:15:"./img/perso.jpg";}}
