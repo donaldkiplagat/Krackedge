@@ -172,6 +172,27 @@ ul, ol {
     background: #1C1D21;
 }
 
+.bg-img-services {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-services .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
+}
 
 /* --  section header  -- */
 
@@ -619,6 +640,28 @@ header {
     color: #868F9B;
 }
 
+
+#home-services {
+    height: 25vh;
+}
+
+#home-services .home-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.home-content-services h1 {
+  text-transform: uppercase;
+}
+.home-content-services button {
+  margin-top: 20px;
+}
 
 /*------------------------------------*\
 	About
