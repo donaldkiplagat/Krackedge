@@ -724,15 +724,15 @@ header {
 .work .overlay {
     background: #1C1D21;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
+    opacity: 0.67;
 }
 
 .work:hover .overlay {
@@ -756,7 +756,7 @@ header {
     -webkit-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%);
-    opacity: 0;
+    opacity: 1;
     color: #FFF;
     margin-bottom: 10px;
     -webkit-transition: 0.2s all;
@@ -975,10 +975,10 @@ header {
 }
 
 .pricing .price h3 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0px;
-  -webkit-transition: 0.2s color;
-  transition: 0.2s color;
+  -webkit-transition: 0.9s color;
+  transition: 0.9s color;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
