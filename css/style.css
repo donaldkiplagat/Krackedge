@@ -46,7 +46,7 @@ Table OF Contents
 
 body {
     font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
+    font-size: 16.9px;
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
@@ -732,7 +732,7 @@ header {
     transition: 0.2s opacity;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
-    opacity: 0.67;
+    opacity: 0.59;
 }
 
 .work:hover .overlay {
