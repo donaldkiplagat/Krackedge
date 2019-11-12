@@ -4,6 +4,7 @@ if(isset($_POST['submit'])){
     $from = $_POST['email']; // this is the sender's Email address
     $client_name = $_POST['client_name'];
     $business = $_POST['business'];
+    $category = $_POST['category'];
     $phone_number = $_POST['phone_number'];
     $service = $_POST['service'];
     $package = $_POST['package'];
