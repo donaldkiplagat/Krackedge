@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    $to = "donatello54611@gmail.com"; // this is your Email address
+    $to = "info@krackedgecreative.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $client_name = $_POST['client_name'];
     $business = $_POST['business'];
@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 
 
     $message = "Name:".$client_name . "\nBusiness Name: ".$business."\nBusiness Category: ".$category."\nEmail: ".$from."\nPhone number: ".$phone_number."\n\nQuotation Request of the following service: ".$service ."\n". "With the following package: ".$package. "\n\n"."Additional request/inquiry: ".$additional_request;
-    $message2 = "Greetings ".$client_name.",\nHere is a quotation request:\n\n"."Name:".$client_name . "\nBusiness Name: ".$business."\nBusiness Category: ".$category."\nEmail: ".$from."\nPhone number: ".$phone_number."\n\nQuotation Request of the following service: ".$service ."\n". "With the following package: ".$package. "\n\n"."Additional request/inquiry: " .$additional_request;
+    $message2 = "Greetings ".$client_name.",\nHere is a copy of your quotation request:\n\n"."Name:".$client_name . "\nBusiness Name: ".$business."\nBusiness Category: ".$category."\nEmail: ".$from."\nPhone number: ".$phone_number."\n\nQuotation Request of the following service: ".$service ."\n". "With the following package: ".$package. "\n\n"."Additional request/inquiry: " .$additional_request;
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
