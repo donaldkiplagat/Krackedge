@@ -10,8 +10,12 @@ if(isset($_POST['submit'])){
     $package = $_POST['package'];
     $additional_request = $_POST['additional_request'];
 
-    $message = $client_name . " requested a quote of the following service:" ."\n" .$service ."\n". "With the following package: ".$package. "\n"."Additional request/inquiry: ".$additional_request ;
-    $message2 = "Here is a copy of your message " . $client_name . " requested a quote of the following service:" ."\n" .$service ."\n". "With the following package: ".$package. "\n"."Additional request/inquiry: ".$additional_request ;
+    $subject = "Quotation Request";
+    $subject2 = "Copy of Quotation Request";
+
+
+    $message = "Name:".$client_name . "\nBusiness Name: ".$business."\nBusiness Category: ".$category."\nEmail: ".$from."\nPhone number: ".$phone_number."\n\nQuotation Request of the following service: ".$service ."\n". "With the following package: ".$package. "\n\n"."Additional request/inquiry: ".$additional_request;
+    $message2 = "Greetings ".$client_name.",\nHere is a quotation request:\n\n"."Name:".$client_name . "\nBusiness Name: ".$business."\nBusiness Category: ".$category."\nEmail: ".$from."\nPhone number: ".$phone_number."\n\nQuotation Request of the following service: ".$service ."\n". "With the following package: ".$package. "\n\n"."Additional request/inquiry: " .$additional_request;
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
